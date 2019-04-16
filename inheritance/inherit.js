@@ -22,8 +22,8 @@ MovingObject.prototype.move = function() {
 }
 
 function Ship() { }
-// Ship.inherits(MovingObject);
+Ship.inherits(MovingObject);
 
 function Asteroid() { }
-// Asteroid.inherits(MovingObject);
+Asteroid.inherits(MovingObject);
 
